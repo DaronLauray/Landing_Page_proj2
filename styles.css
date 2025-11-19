@@ -17,14 +17,29 @@ div.header {
     min-height: 50px;
     
 }
+div.left_side{
+    text-align:center
+}
+div.right_side{
+    margin:10px;
+}
+div#right{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+    margin:10px;
+}
 h1{
-gap: 500px;
-margin: 10px;
+    gap: 500px;
+    margin: 10px;
 }
  h3#three{
-  display:flex;
-  gap:-50px;
-  margin:10px;
+    justify-content: center;
+    display:flex;
+    gap:50px;
+    margin:0px;
+    align-items: center;
 }
 div.container_1{
     display: flex;
@@ -33,15 +48,33 @@ div.container_1{
     justify-content:space-between;
 }
 
-div.container_2,div.container_3,div.container_4{
+div#contents{
     display:flex;
     flex: 4;
     flex-direction: column;
     height:300px;
 
 }
+div.container_2{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    gap:60px;
+    align-items:center;
+    margin: 0px;
+    background:#223166;
+}
+div.sqr1{
+    margin:10px;
+    flex-direction:column;
+    display:flex;
+}
 .footer{
     text-align: center;
     margin:0px;
     min-height:50px;
+    background:#223166;
+}
+img{
+    border-radius: 10px;
 }
